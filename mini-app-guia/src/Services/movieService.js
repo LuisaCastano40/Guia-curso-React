@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 
-export const getAllProducts = async () => {
-const BASE_URL = 'https://fakestoreapi.com/products';
+export const getAllMovies = async () => {
+const BASE_URL = 'https://ghibliapi.vercel.app/films';
 
   try {
     const response = await axios.get(BASE_URL);
