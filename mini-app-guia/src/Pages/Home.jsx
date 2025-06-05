@@ -1,2 +1,6 @@
-const Home = () => <h1 className="text-2xl text-navy">Bienvenido a la Home</h1>;
+
+
+const Home = () => <>
+  <h1>Bienvenidos</h1>
+</>;
 export default Home;

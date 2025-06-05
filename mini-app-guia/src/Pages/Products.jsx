@@ -3,6 +3,7 @@ import { getAllCreatures } from '../Services/creaturesService.js'
 import { getAllProducts } from '../Services/productsService.js'
 import { getAllMovies } from '../Services/movieService.js'
 
+
 export default function Products() {
 
   useEffect(()=>{
@@ -11,6 +12,9 @@ export default function Products() {
     getAllProducts();
   },[]);
   return (
-    <div className="text-2xl">Products</div>
+    <div className="">
+
+      
+    </div>
   )
 }

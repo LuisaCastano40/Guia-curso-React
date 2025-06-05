@@ -3,10 +3,14 @@ import Home from "./Pages/Home.jsx";
 import About from "./Pages/About.jsx";
 import Products from "./Pages/Products.jsx";
 import NavBar from "./Components/NavBar.jsx";
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 function App() {
  
   return (
+    
      <div>
       <NavBar />
       <div className="p-4">
